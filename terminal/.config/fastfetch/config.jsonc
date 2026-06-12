@@ -1,0 +1,57 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "debian",
+    "padding": {
+      "top": 1
+    },
+    "color": {
+      "1": "magenta",  // O rosa pastel do tema Sweet
+      "2": "yellow"     // Branco suave
+    }
+  },
+  "display": {
+    "separator": " -> ",
+    "color": "magenta" // Separador combinando com o logo
+  },
+  "modules": [
+    "title",
+    {
+      "type": "separator",
+      "string": "----------------------",
+      "outputColor": "white"
+    },
+    {
+      "type": "os",
+      "keyColor": "yellow",  // Rosa
+      "format": "{3}"
+    },
+    {
+      "type": "kernel",
+      "keyColor": "red"     // Verde Pastel
+    },
+    {
+      "type": "uptime",
+      "keyColor": "green"       // No tema Sweet, o 'red' é um salmão suave
+    },
+    {
+      "type": "shell",
+      "keyColor": "cyan"      // Azul Ciano Pastel
+    },
+    {
+      "type": "de",
+      "keyColor": "magenta"      // Azul Escuro Pastel
+    },
+    {
+      "type": "cpu",
+      "keyColor": "red",  // Repete o Rosa pra fechar
+      "format": "{1}"
+    },
+    {
+      "type": "memory",
+      "keyColor": "yellow"     // Branco/Cinza claro
+    },
+    "break",
+    "colors"
+  ]
+}

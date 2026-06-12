@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Dracula At Night",
+    "workbench.startupEditor": "none",
+    "vscode-pets.theme": "forest",
+    "vscode-pets.throwBallWithMouse": true,
+    "vscode-pets.petSize": "small",
+    "files.autoSave": "afterDelay",
+    "vscode-office.openOutline": true,
+    "explorer.confirmDelete": false
+}
